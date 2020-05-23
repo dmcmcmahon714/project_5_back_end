@@ -1,18 +1,22 @@
 !!!
 %html 
 %head
-  %title AbsoluteJAMS
-  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-  = javascript_tag 'application', 'data-turbolinks-track' => true
-  = csrf_meta_tags
+	%title AbsoluteJAMS
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+	%link{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato", type: "text/css" }
+	%link{ rel: "stylesheet", href: "http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" }
+	= javascript_tag 'application', 'data-turbolinks-track' => true
+	= csrf_meta_tags
 %body
-  %header
-    #logo 
-      %p AbsoluteJAMS
-    #buttons
-      = link_to "New Post", new_post_path
+	%header.main_header.clearfix
+		#logo 
+			%p= link_to "AbsoluteJAMS", root_path
+		#buttons
+			= link_to "New Post", new_post_path
+
 .wrapper    
-%p.notice= notice
-%p.alert= alert
+	%p.notice= notice
+	%p.alert= alert
+
 .wrapper  
-= yield
+	= yield
