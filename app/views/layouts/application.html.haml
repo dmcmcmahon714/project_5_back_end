@@ -1,0 +1,18 @@
+!!!
+%html 
+%head
+  %title AbsoluteJAMS
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+  = javascript_tag 'application', 'data-turbolinks-track' => true
+  = csrf_meta_tags
+%body
+  %header
+    #logo 
+      %p AbsoluteJAMS
+    #buttons
+      = link_to "New Post", new_post_path
+.wrapper    
+%p.notice= notice
+%p.alert= alert
+.wrapper  
+= yield
