@@ -4,10 +4,6 @@
   "engines": {
     "node": "13.3.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dmcmcmahon714/project_5_back_end.git"
-  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
