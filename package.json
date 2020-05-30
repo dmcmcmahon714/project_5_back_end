@@ -2,7 +2,7 @@
   "name": "final_project_back_end",
   "private": true,
   "engines": {
-    "yarn": "1.22.4"
+    "node": "13.3.0"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
