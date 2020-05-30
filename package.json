@@ -4,6 +4,10 @@
     "node": "13.3.0",
     "yarn": "1.22.4"
   },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -13,5 +17,25 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcmcmahon714/project_5_back_end.git"
+  },
+  "author": "Dan McMahon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcmcmahon714/project_5_back_end/issues"
+  },
+  "homepage": "https://github.com/dmcmcmahon714/project_5_back_end#readme"
 }
