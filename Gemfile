@@ -28,6 +28,7 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'uglifier'
 gem 'webpacker'
+gem 'yarn'
 
 
 
