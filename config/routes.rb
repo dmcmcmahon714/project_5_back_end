@@ -5,5 +5,5 @@
 		resources :comments, :likes
 	end
 
-	root 'welcome#index'
+	root 'posts#index'
 end
